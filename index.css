@@ -1,0 +1,96 @@
+* {
+	box-sizing: border-box;
+	argin: 0;
+	adding: 0;
+}
+input, textarea, p {
+	font-size: 16px;
+}
+h1 {
+	color: #f16b13;
+	font-family: "bebas neue";
+	font-size: 60px;
+}
+body {
+	color: #eee;
+	font-family: "Montserrat", sans-serif;
+	background: #222;
+	text-align: center;
+}
+section {
+	order: 1px solid lime;
+	padding: 40px 0;
+}
+.logo-font {
+	color: orange;
+	font-family: "Bebas Neue", sans-serif;
+	font-size: 50px;
+}
+footer {
+	order: 1px solid lime;
+	padding: 30px 0;
+}
+
+form {
+	order: 1px solid red;
+	display: inline-block;
+	width: 80%;
+	max-width: 460px;
+}
+input, textarea {
+	color: inherit;
+	font-family: inherit;
+	display: block;
+	background: rgb(40, 40, 40);
+	border: none;
+	border-bottom: 2px solid #444;
+	font-size: 18px;
+	margin: 20px auto;
+	padding: 10px;
+	width: 100%;
+	transition: border 0.2s ease, 
+				color 0.2s ease;
+}
+input:hover, textarea:hover {
+	color: orange;
+	border-bottom: 2px solid orange;
+}
+input:focus, textarea:focus {
+	color: orange;
+	border-bottom: 2px solid orange;
+}
+input {
+
+}
+input[type="submit"] {
+	cursor: pointer;
+}
+
+.flexContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.App {
+	height: 100vh;
+}
+.banner {
+	height: 100vh;
+}
+.banner-img {
+	width: 60%;
+	height: 60%;
+	max-width: 400px;
+}
+
+
+.newsletter {}
+.newsletter p {
+	margin: auto;
+}
+
+.contact {
+	height: 80vh;
+}

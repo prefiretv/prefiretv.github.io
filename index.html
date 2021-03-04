@@ -1,38 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8"/>
+	<meta name="description" content="CSGO Archive, Database, Player" />
+	<meta name="keywords" content="CSGO, CSGO Archive, CSGO Database, VideoPlayer, counter strike, counter, strike, global, offensive" />
+	<meta name="author" content="prefire.tv" />
+	<meta name="copyright" content="prefire.tv" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- html gets requested from webserver every time -->
+	<meta http-equiv="cache-control" content="no-cache"/> 
+
 	<title>Prefire.tv</title>
 
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DotGothic16&display=swap" rel="stylesheet">
-	<style type="text/css">
-		body {
-			font-family: sans-serif;
-			background: #222;
-			text-align: center;
-		}
-		.main {
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			height: 80vh;
-		}
-		h1 {
-			color: orange;
-			font-family: "Bebas Neue", sans-serif;
-			font-size: 50px;
-		}
-		footer {
-			color: #eee;
-		}
-	</style>
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./index.css">
 </head>
 <body>
-	<div class="main">
+	<div class="App">
+		<section class="banner flexContainer">
+				<img class="banner-img" src="prefiretv-logo.png" />
+		</section>
 		
-			<img src="./prefiretv-logo.png" />
+		<section class="contact">
+			<h1>Contact Us</h1>
+			<form action="https://formspree.io/f/meqpbdnk" method="POST">
+				<input type="text" name="name" placeholder="Your name.."  required />
+				<input type="email" name="_replyto" placeholder="Your email.."  required />
+				<textarea name="message" placeholder="How can we help?" required ></textarea> 
+				<input type="submit" value="Send" />
+			</form>
+			<!-- modify this form HTML and place wherever you want your form -->
+
+		</section>
+
+		<footer class="flexContainer">Copyright @ 2021 | PREFIRE.TV</footer>
 	</div>
-	
-	<footer>Copyright @ 2021 | PREFIRE.TV</footer>
 </body>
 </html>
