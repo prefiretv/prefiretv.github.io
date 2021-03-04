@@ -81,7 +81,7 @@ input[type="submit"] {
 }
 .banner-img {
 	width: 60%;
-	height: 60%;
+	eight: 60%;
 	max-width: 400px;
 }
 
@@ -92,5 +92,5 @@ input[type="submit"] {
 }
 
 .contact {
-	height: 80vh;
+	min-height: 80vh;
 }
